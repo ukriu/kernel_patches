@@ -1,6 +1,6 @@
 --- a/KernelSU/kernel/apk_sign.original.c
 +++ b/KernelSU/kernel/apk_sign.c
-@@ -317,8 +317,12 @@
+@@ -317,8 +317,13 @@
  bool ksu_is_manager_apk(char *path)
  {
  #ifdef CONFIG_KSU_SUSFS
